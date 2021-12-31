@@ -18,6 +18,44 @@
     "shouldOverwriteFont": true
   },
 
+
+  "orderedStyles": [
+    "title-mark1",
+    "title-mark2",
+    "title-mark3",
+    "body",
+    "quote-content",
+    "bold",
+    "bold-left-mark",
+    "bold-right-mark",
+    "italic",
+    "italic-left-mark",
+    "italic-right-mark",
+    "boldItalic",
+    "boldItalic-left-mark",
+    "boldItalic-right-mark",
+    "code",
+    "code-left-backtick",
+    "code-right-backtick",
+    "special-char",
+    "checked-todo-characters",
+    "todo",
+    "checked",
+    "quote-mark",
+    "tabbed",
+    "link",
+    "hashtag",
+    "attag",
+    "schedule-to-date-link",
+    "done-date",
+    "schedule-from-date-link",
+    "title1",
+    "title2",
+    "title3",
+    "note-title-link",
+    "timeblocks"
+  ],
+
   "styles": {
     "body": {
       "font": "AvenirNext-Regular",
@@ -268,6 +306,12 @@
 
     "attag": {},
 
-    "phonenumber": {}
+    "phonenumber": {},
+
+    "timeblocks": {
+      "regex": "((?:\\d{4}-[01]\\d{1}-\\d{2})?(?:(at|from)\\s*([0-2]?\\d|noon|midnight)(:[0-5]\\d)?(\\s?(AM?|PM?|am?|pm?)?)|\\h+([0-2]?\\d)(:[0-5]\\d)?(\\s?(AM?|PM?|am?|pm?)|(?=\\s*(\\-|\\–|\\~|\\〜|to|\\?)))|\\h+([0-2]?\\d|noon|midnight)(:[0-5]\\d)\\s?(AM?|PM?|am?|pm?)?)(?:\\s*(\\-|\\–|\\~|\\〜|to|\\?)\\s*([0-2]?\\d|noon|midnight)(:[0-5]\\d)?(\\s?(AM?|PM?|am?|pm?)?))?(?=\\h|$))",
+      "matchPosition": 1,
+      "color": "#CC4999"
+    }
   }
 }
